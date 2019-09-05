@@ -1,6 +1,3 @@
-Make sure the file always includes the following elements:
-
-#
 ##Titles and internal titles
 
 #Introduction - the project's aim
