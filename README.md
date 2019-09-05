@@ -1,6 +1,8 @@
-##Titles and internal titles
+# titles and internal files
 
-#Introduction - the project's aim
+## Titles and internal titles
+
+# Introduction - the project's aim
 #Technologies
 #Launch
 
