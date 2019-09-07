@@ -1,1 +1,3 @@
+#ignore QT creator set up files
+
 *.pro*
