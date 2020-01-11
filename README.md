@@ -6,8 +6,8 @@ During my time assisting Dr. Cramer I had the opportunity to study some set theo
 ### Graph Elements
 * Nodes: Elementary embeddings which are the building blocks of this program.
 * Node Labels: Mark the order of the creation of each node by the program.
-* Edges: In the directed edge (v,w) the tail, v, represents a divisor of w.
-  * The tail is some nth root of the head.
+* Blue Edges: In the directed edge (v,w) the tail, v, represents a divisor of w.
+* Red Edges: A special case where the tail is some nth root of the head.
 ### Terms
 * Embedding: A mapping of one structure to another while maintaining first-order logic. So, given an embedding, j, and a structure N, j: N->M where M keeps without removing any first-order logic.
 * Left-Distributive Algebra: If the left-(self)-distributivity is the property where a * (b * c) = (a * b) * (a * c), then given an elementary embedding j:Vλ → Vλ, Aj is the algebra of embeddings generated from j.
