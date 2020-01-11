@@ -3,14 +3,19 @@
 I added a graph, node, and edge class from Qt to visually represent Dr. Scott Cramer's work on embeddings and left distributive algebras.  
 ### Motivation
 During my time assisting Dr. Cramer I had the opportunity to study some set theory and learn more about large cardinal numbers and left-distributive algebras. Mostly I spent out time together understanding the code that he had written so that I could add the visual wrappers to it and to manipulate it in order to update it. For example, Dr. Cramer used arrays that sometimes went out of bounds so I adopted vectors. This was a simple change and didn't fundamentally alter any logic, but it allowed the program to keep from crashing at certain points. 
-### Explanation
+### Graph Elements
+* Nodes: Elementary embeddings which are the building blocks of this program.
+* Node Labels: Mark the order of the creation of each node by the program.
+* Edges: In the directed edge (v,w) the tail, v, represents a divisor of w.
+  * The tail is some nth root of the head.
+### Terms
 * Embedding: A mapping of one structure to another while maintaining first-order logic. So, given an embedding, j, and a structure N, j: N->M where M keeps without removing any first-order logic.
 * Left-Distributive Algebra: If the left-(self)-distributivity is the property where a * (b * c) = (a * b) * (a * c), then given an elementary embedding j:Vλ → Vλ, Aj is the algebra of embeddings generated from j.
 (Definition from Dr. Scott Cramer)
 *  <a href="http://mathworld.wolfram.com/Rank.html" target="_blank">Rank</a>: The function from a set to an 
           <a href="http://mathworld.wolfram.com/OrdinalNumber.html" target="_blank">ordinal number</a>. The rank of a set is the smallest ordinal number that is greater 
           than all of the ranks of the elements of the set. 
-          For our case an example of rank 3 would include: jjj, (jj)j, ... , j<sup>2</sup>j, j<sup>3</sup.  
+          For our case an example of rank 3 would include: jjj, (jj)j, ... , j<sup>2</sup>j, j<sup>3</sup>.  
           
 ### Tech Stack
 * C++
