@@ -2,7 +2,7 @@
 # Left Distributive Algebras and Elementary Embeddings
 I added a graph, node, and edge class from Qt to visually represent Dr. Scott Cramer's work on embeddings and left distributive algebras.  
 ### Motivation
-During my time assisting Dr. Cramer I had the opportunity to study some set theory and learn more about large cardinal numbers and left-distributive algebras. Mostly I spent out time together understanding the code that he had written so that I could add the visual wrappers to it and to manipulate it in order to update it. For example, Dr. Cramer used arrays that sometimes went out of bounds so I adopted vectors. This was a simple change and didn't fundamentally alter any logic, but it allowed the program to keep from crashing at certain points. 
+During my time assisting Dr. Cramer I had the opportunity to study some set theory and learn more about large cardinal numbers and left-distributive algebras. I spent most of our time together understanding the code that he had written so that I could add the visual wrappers to it and to manipulate it in order to update it. For example, Dr. Cramer used arrays that sometimes went out of bounds so I adopted vectors. This was a simple change and didn't fundamentally alter any logic, but it allowed the program to keep from crashing at certain points. 
 ### Graph Elements
 * Nodes: Elementary embeddings which are the building blocks of this program.
 * Node Labels: Mark the order of the creation of each node by the program.
